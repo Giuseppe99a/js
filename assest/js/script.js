@@ -2,6 +2,7 @@
 const buttonPlus = document.getElementById('plus');
 const buttonMinus = document.getElementById('minus');
 
+
 buttonPlus.addEventListener('click', add);
 buttonMinus.addEventListener('click', subtract);}
 
@@ -24,3 +25,13 @@ function addiction(n) {
   value = value + n;
   number.innerHTML = value;
 }
+{const buttonreset = document.getElementById ('reset');
+
+buttonreset.addEventListener('click', Reset);}
+
+function Reset()
+{
+  value = 0;
+  number.innerHTML = value;
+}
+

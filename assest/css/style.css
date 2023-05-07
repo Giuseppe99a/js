@@ -5,7 +5,7 @@
     color: green;
 }
 .logo{
-    color: green;
+    color: pink;
     font-size: 30px;
     font-weight: 600;
     cursor: pointer;
@@ -18,7 +18,7 @@ h3 {
 button {
   font-size: 30px;
   background-color: #4CAF50;
-  color: white;
+  color: pink;
   border: none;
   border-radius: none;
   padding: 10px 20px;
@@ -28,4 +28,8 @@ button {
 #number {
   font-size: 40px;
   padding: 0 50px;
+}
+
+body {
+  background-color: #4CAF50;
 }
