@@ -1,7 +1,6 @@
-{ const number = document.getElementById('number');
-const buttonPlus = document.getElementById('plus');
-const buttonMinus = document.getElementById('minus');
-
+{ const number = document.getElementById('Counter');
+const buttonPlus = document.getElementById('Counter');
+const buttonMinus = document.getElementById('Counter');
 
 buttonPlus.addEventListener('click', add);
 buttonMinus.addEventListener('click', subtract);}
@@ -9,29 +8,18 @@ buttonMinus.addEventListener('click', subtract);}
 {let value = 0;}
 
 function add() {
+  const elem = document.getElementById("Counter");
   value++;
   number.innerHTML = value;
-}
 
-function subtract() {
+}
+function subtract(){
+  const elem= document.getElementById("Counter");
   value--;
+  number.innerHTML= value;
+}
+function reset(){
+  const elem= document.getElementById("Counter");
+  value=0;
   number.innerHTML = value;
 }
-const number = document.getElementById('number');
-
-let value = 0;
-
-function addiction(n) {
-  value = value + n;
-  number.innerHTML = value;
-}
-{const buttonreset = document.getElementById ('reset');
-
-buttonreset.addEventListener('click', Reset);}
-
-function Reset()
-{
-  value = 0;
-  number.innerHTML = value;
-}
-
