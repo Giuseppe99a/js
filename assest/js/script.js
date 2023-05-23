@@ -1,6 +1,6 @@
-{ const number = document.getElementById('Counter');
-const buttonPlus = document.getElementById('Counter');
-const buttonMinus = document.getElementById('Counter');
+{ const number = document.getElementById('Number');
+const buttonPlus = document.getElementById('plus');
+const buttonMinus = document.getElementById('minus');
 
 buttonPlus.addEventListener('click', add);
 buttonMinus.addEventListener('click', subtract);}
