@@ -5,19 +5,19 @@ const buttonMinus = document.getElementById('Counter');
 buttonPlus.addEventListener('click', add);
 buttonMinus.addEventListener('click', subtract);}
 
-{const value = 0;}
+{let value = 0;}
 
 function add() {
   let value=0;
   const elem = document.getElementById("Counter");
   value++;
-  number.innerHTML = value;
+  number.innerHTML = value++;
 }
 function subtract(){
   let value=0;
   const elem= document.getElementById("Counter");
   value--;
-  number.innerHTML= value;
+  number.innerHTML= value--;
 }
 function reset(){
   const elem= document.getElementById("Counter");
