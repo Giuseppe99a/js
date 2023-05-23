@@ -10,14 +10,14 @@ buttonMinus.addEventListener('click', subtract);}
 function add() {
   let value=0;
   const elem = document.getElementById("Counter");
-  value++;
-  number.innerHTML = value++;
+  0++;
+  number.innerHTML = value;
 }
 function subtract(){
   let value=0;
   const elem= document.getElementById("Counter");
-  value--;
-  number.innerHTML= value--;
+  0--;
+  number.innerHTML= value;
 }
 function reset(){
   const elem= document.getElementById("Counter");
