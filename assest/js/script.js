@@ -6,17 +6,14 @@ buttonPlus.addEventListener('click', add);
 buttonMinus.addEventListener('click', subtract);}
 
 {let value = 0;}
-
-function add() {
-  let value=0;
-  const elem = document.getElementById("Counter");
-  0++;
-  number.innerHTML = value;
+function add(){
+ const elem= document.getElementById("Counter");
+  value++;
+  number.innerHTML= value;
 }
 function subtract(){
-  let value=0;
-  const elem= document.getElementById("Counter");
-  0--;
+ const elem= document.getElementById("Counter");
+  value--;
   number.innerHTML= value;
 }
 function reset(){
